@@ -3,6 +3,7 @@
 <html>
 
 <head>
+	<title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -10,6 +11,35 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	 <header>
+        <h1 role="heading">My Portfolio</h1>
+    </header>
+	 <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   <section id="about">
+            <h2 role="heading">About Me</h2>
+            <p>Welcome to my portfolio! Here you'll find information about my projects and how to contact me.</p>
+        </section>
+
+        <section id="projects">
+            <h2 role="heading">Projects</h2>
+            <img src="" alt="Screenshot of my project" role="img">
+            <p>Here is a brief description of one of my projects.</p>
+        </section>
+
+        <section id="contact">
+            <h2 role="heading">Contact</h2>
+            <ul role="list">
+                <li role="listitem">Email: <a href="mailto:example@example.com">example@example.com</a></li>
+                <li role="listitem">LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">Your Profile</a></li>
+                <li role="listitem">GitHub: <a href="https://github.com/yourusername">yourusername</a></li>
+            </ul>
+        </section>
 
 </body>
 
